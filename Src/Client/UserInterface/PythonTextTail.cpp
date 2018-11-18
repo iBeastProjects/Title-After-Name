@@ -55,9 +55,9 @@ void CPythonTextTail::ArrangeTextTail()
 					else
 					{
 #ifndef ENABLE_TITLE_AFTER_NAME
-						pTitle->SetPosition(pTextTail->x - (iNameWidth / 2) - iTitleWidth, pTextTail->y, pTextTail->z);
+						pLevel->SetPosition(pTextTail->x - (iNameWidth / 2) - iTitleWidth, pTextTail->y, pTextTail->z);
 #else
-						pTitle->SetPosition(pTextTail->x - (iNameWidth / 2) + 4.0f, pTextTail->y, pTextTail->z);
+						pLevel->SetPosition(pTextTail->x - (iNameWidth / 2) + 4.0f, pTextTail->y, pTextTail->z);
 #endif
 					}
 				}
