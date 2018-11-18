@@ -1,0 +1,2 @@
+//Add:
+#define ENABLE_TITLE_AFTER_NAME
